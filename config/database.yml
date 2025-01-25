@@ -23,6 +23,8 @@ test:
 
 production:
   <<: *default
+   secret_key_base:34a20583ac3f4244a968f824b5afa7a3baca633785f56608c6e00ff0b188b39ed15c1249adf4adc07619e92afbea6d2328230ca0622466d18134c3f2bcb30077
+
   adapter: postgres
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
