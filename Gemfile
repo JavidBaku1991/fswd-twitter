@@ -8,7 +8,7 @@ ruby '3.1.2'
 # Add this line if it's not already present
 gem 'bcrypt', '~> 3.1.7'
 
-gem 'rubygems-update'
+gem "rubygems-update", require: false
 
 
 gem 'mini_magick'
