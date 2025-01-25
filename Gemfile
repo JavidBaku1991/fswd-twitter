@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
 
+gem 'nokogiri', '< 1.18.0'
 
 
 # Add this line if it's not already present
